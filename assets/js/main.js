@@ -6,10 +6,10 @@ document.querySelector("button").addEventListener("click", function (event) {
     navigator.clipboard
       .writeText(text_to_copy)
       .then(function () {
-        document.querySelector("button").innerText = "Copiado!";
+        document.querySelector("button").innerText = "Copied!";
       })
       .catch(function () {
-        document.querySelector("button").innerText = "Ops, ocorreu um erro! :(";
+        document.querySelector("button").innerText = "Ops, error cuy! :(";
       });
   }
 });
