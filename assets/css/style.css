@@ -172,6 +172,10 @@ section div article h2 {
 #pix div h3 {
   margin-bottom: 2.4rem;
   font-size: 2rem;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 200px;
 }
 #pix div button {
   background: linear-gradient(
