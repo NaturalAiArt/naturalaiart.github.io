@@ -1,15 +1,6 @@
-document.querySelector("button").addEventListener("click", function (event) {
-  var text_to_copy = document.getElementById("chave").innerHTML;
-
-  if (!navigator.clipboard) {
-  } else {
-    navigator.clipboard
-      .writeText(text_to_copy)
-      .then(function () {
-        document.querySelector("button").innerText = "Copied!";
-      })
-      .catch(function () {
-        document.querySelector("button").innerText = "Ops, error cuy! :(";
-      });
-  }
-});
+VanillaTilt.init(document.querySelectorAll(".social__links ul li"), {
+		max: 10,
+		speed: 800,
+        glare: true,
+        "max-glare": 1
+	});
