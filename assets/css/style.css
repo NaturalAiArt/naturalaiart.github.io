@@ -68,13 +68,16 @@ body{
     background: #fd5949;
 }
 .social__links ul .openseaprofile:hover{
-    background:#FF0000;
+    background:#184CFD;
 }
 .social__links ul .openseacollection:hover{
     background:#0088cc;
 }
 .social__links ul .github:hover{
-    background: #333;
+    background: #E049F1;
+}
+.social__links ul .facebook:hover{
+    background: #0F039E;
 } 
 @media only screen and (max-width: 549px) {
     .container{
