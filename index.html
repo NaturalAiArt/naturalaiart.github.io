@@ -58,5 +58,24 @@
   </div>
 </div>
     <script src="assets/js/main.js"></script>
+    <div id="mintable-widget"></div>
+<script>
+  (function (w, d, s, o, f, js, fjs) {
+    w["Mintable_Widget"] = o;
+    w[o] = w[o] ||
+      function () {
+        (w[o].q = w[o].q || []).push(arguments);
+      };
+    (js = d.createElement(s)), (fjs = d.getElementsByTagName(s)[0]);
+    js.id = o;
+    js.src = f;
+    js.async = 1;
+    fjs.parentNode.insertBefore(js, fjs);
+  })(window, document, "script", "widget", "https://unpkg.com/mintable-widget/dist/index.js");
+  widget("init", { targetElementId: "mintable-widget" });
+  widget("shownft", {
+    size:"mini",ids:["art/listing/7E7vkKija9MP_1e","art/listing/7aOuElrEr__E52G","art/listing/_QwPguashKUU7YV","art/listing/W0srwG1dD4SX8_r","art/listing/5rNQwNEOWm5jB2h","art/listing/CN37vidERiJopvO","art/listing/WoR9I2RxBMF87wV","art/listing/nIe9Hma55x-JPtO","art/listing/7MTo0mPj_EnoYeY","art/listing/ZWJINEaXC9yVFqy","art/listing/EgitbV2ov61BXcl","art/listing/2kPaOXsW-rWwiWa","art/listing/lWS0bAaX4FxUY3K","art/listing/wAG3knji2ioOuZU","art/listing/NDd5U-JTsh87Nfd","art/listing/x8D_P_NS51R8ifo","art/listing/eVz0j-SU1Mlbz2F","art/listing/fYxiBnYDdujz7cl","art/listing/hz0YQ6o76JQR-SH","art/listing/FCGSCnA7NdY9mdl","art/listing/k7sxwM8D5grLF1A","art/listing/XUpA47voxr87x-S","art/listing/5w9EUXJCGiwnGpY","art/listing/j4f8uU2nn_QJQ5I","art/listing/7NP1Glieo2fDgJC","art/listing/ISmH7nnXF-jnSZi","art/listing/6t9-p01KhIPMKik","art/listing/j1DxJ02J9YrbAxz","art/listing/CR-9KHSs-VvoqV0","art/listing/Q1pB6rQS3DZ9dQJ"],fontFamily:"Lato",backgroundColor:"#ffffff",fontColor:"#2d2d2d",subtitleColor:"#727272",buttonColor:"#000000",buttonTextColor:"#ffffff",
+  });
+</script>
   </body>
 </html>
